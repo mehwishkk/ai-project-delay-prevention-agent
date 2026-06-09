@@ -1,0 +1,25 @@
+# AI Project Delay Prevention Agent
+
+An autonomous AI-powered project management assistant that proactively detects delivery risks in GitLab projects.
+
+## Features
+
+- Detects overdue GitLab issues
+- Identifies blocked and critical tasks
+- Calculates project delay risk scores
+- Generates executive risk assessments
+- Automatically posts intervention comments on high-risk issues
+
+## Tech Stack
+
+- Flask
+- GitLab API
+- Gemini API (with fallback AI risk engine)
+- GitHub
+- Render
+
+## Running Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
